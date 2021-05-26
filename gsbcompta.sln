@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30002.166
+VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gsbcompta", "gsbcompta\gsbcompta.csproj", "{DCECB158-F576-4DFC-9C3F-09B3D4D10BF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gsbcompta", "gsbcompta\gsbcompta.csproj", "{27F04783-E106-46C6-801B-169C6969E071}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DCECB158-F576-4DFC-9C3F-09B3D4D10BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCECB158-F576-4DFC-9C3F-09B3D4D10BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCECB158-F576-4DFC-9C3F-09B3D4D10BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCECB158-F576-4DFC-9C3F-09B3D4D10BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F04783-E106-46C6-801B-169C6969E071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F04783-E106-46C6-801B-169C6969E071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F04783-E106-46C6-801B-169C6969E071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F04783-E106-46C6-801B-169C6969E071}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CC39ABB5-5BA0-4497-A2E9-8913ADC4A46E}
+		SolutionGuid = {448B1936-ADF7-4FCA-85D5-4BD38BB7520D}
 	EndGlobalSection
 EndGlobal

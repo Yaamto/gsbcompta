@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCECB158-F576-4DFC-9C3F-09B3D4D10BF7}</ProjectGuid>
+    <ProjectGuid>{27F04783-E106-46C6-801B-169C6969E071}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>gsbcompta</RootNamespace>
     <AssemblyName>gsbcompta</AssemblyName>
@@ -92,25 +92,51 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bdd.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="CONFIG\Database.cs" />
+    <Compile Include="CONTROLLERS\BillController.cs" />
+    <Compile Include="CONTROLLERS\FixedFeesController.cs" />
+    <Compile Include="CONTROLLERS\OffPriceController.cs" />
+    <Compile Include="MODELS\Bill.cs" />
+    <Compile Include="MODELS\OffPrice.cs" />
+    <Compile Include="MODELS\FixedFees.cs" />
+    <Compile Include="VIEWS\AddUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="VIEWS\AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\DetailsOffPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\DetailsOffPrice.Designer.cs">
+      <DependentUpon>DetailsOffPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListeFiches.cs">
+    <Compile Include="VIEWS\ListeFiches.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListeFiches.Designer.cs">
+    <Compile Include="VIEWS\ListeFiches.Designer.cs">
       <DependentUpon>ListeFiches.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <Compile Include="CONTROLLERS\UserController.cs" />
+    <Compile Include="MODELS\User.cs" />
+    <EmbeddedResource Include="VIEWS\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\DetailsOffPrice.resx">
+      <DependentUpon>DetailsOffPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListeFiches.resx">
+    <EmbeddedResource Include="VIEWS\ListeFiches.resx">
       <DependentUpon>ListeFiches.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
